@@ -1,0 +1,60 @@
+body{
+	background-color:red;
+}
+header{
+	text-align:center;
+	margin-top:-1rem;
+    margin-bottom:-4rem;
+    font-size:5rem;}
+#toggler{
+visibility:hidden;
+}
+label{
+	background-color:blue;
+	padding:0rem 0.7rem 0rem 0.7rem;
+	font-size:2.5rem;
+	float:right;
+	flex-direction:row-reverse;
+	display:none;
+}
+.menu{
+	clear:both;
+	background-color:white;
+	width:;
+	margin-top:38px;
+}
+.menu ul{
+	display:flex;
+	flex-direction:row-reverse;
+	justify-content:center;
+}
+.menu ul li{
+	background-color:white;
+	padding:0.9rem;
+    list-style:none;}
+.menu ul li a{
+	text-decoration:none;
+}
+section{
+	height:80%;
+	display:flex;
+	text-align:center;
+	justify-content:center;
+	flex-direction:column;
+}
+/*responsive section*/
+@media screen and (max-width:500px){
+	label{
+		display:block}
+		.menu {
+			visibility:hidden;
+			
+		}
+		header{
+			margin-bottom:-4.5rem;
+		}
+		#toggler:checked~.menu{
+			visibility:visible;
+		}
+		
+}
