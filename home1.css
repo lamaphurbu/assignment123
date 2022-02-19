@@ -1,10 +1,13 @@
 body{
-	background-color:red;
+	background-color:#170707;
+	
 }
 header{
+	color:#00bcd4;
 	text-align:center;
 	margin-top:-1rem;
     margin-bottom:-4rem;
+    margin-left:-2rem;
     font-size:5rem;}
 #toggler{
 visibility:hidden;
@@ -21,7 +24,7 @@ label{
 	clear:both;
 	background-color:white;
 	width:;
-	margin-top:38px;
+	margin-top:2.375rem;
 }
 .menu ul{
 	display:flex;
@@ -29,6 +32,7 @@ label{
 	justify-content:center;
 }
 .menu ul li{
+	font-size:1rem;
 	background-color:white;
 	padding:0.9rem;
     list-style:none;}
@@ -42,19 +46,32 @@ section{
 	justify-content:center;
 	flex-direction:column;
 }
+section h1{
+	font-size:5rem;
+	color:white;
+}
+section p{
+	font-size:2rem;
+	color:navajowhite;
+}
 /*responsive section*/
-@media screen and (max-width:500px){
+@media screen and (max-width:800px){
 	label{
 		display:block}
 		.menu {
 			visibility:hidden;
+			margin-top:3.75rem;
 			
 		}
 		header{
 			margin-bottom:-4.5rem;
+			background-color:white;
+			margin-right:4rem;
 		}
 		#toggler:checked~.menu{
 			visibility:visible;
 		}
-		
+		.menu ul li{
+			background-color:#110a1c33;
+		}
 }
