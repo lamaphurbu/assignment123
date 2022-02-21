@@ -1,5 +1,5 @@
 body{
-	background-color:#170707;
+	background-color:#607d8b52;
 	
 }
 header{
@@ -13,12 +13,13 @@ header{
 visibility:hidden;
 }
 label{
-	background-color:blue;
+	background-color:#00bcd4;
 	padding:0rem 0.7rem 0rem 0.7rem;
 	font-size:2.5rem;
 	float:right;
 	flex-direction:row-reverse;
 	display:none;
+	border-radius:15px;
 }
 .menu{
 	clear:both;
@@ -39,6 +40,10 @@ label{
 .menu ul li a{
 	text-decoration:none;
 }
+.menu ul li:hover{
+	cursor:pointer;
+	background:skyblue;
+}
 section{
 	height:80%;
 	display:flex;
@@ -48,11 +53,11 @@ section{
 }
 section h1{
 	font-size:5rem;
-	color:white;
+	color:#00bcd4;
 }
 section p{
 	font-size:2rem;
-	color:navajowhite;
+	color:#00bcd4;
 }
 /*responsive section*/
 @media screen and (max-width:800px){
@@ -74,4 +79,9 @@ section p{
 		.menu ul li{
 			background-color:#110a1c33;
 		}
+}
+.portfolio{
+	display:grid;
+	grid-area:auto auto auto;
+	background:white;
 }
