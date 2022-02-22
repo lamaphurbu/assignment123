@@ -80,8 +80,50 @@ section p{
 			background-color:#110a1c33;
 		}
 }
+/*portfolio page*/
 .portfolio{
 	display:grid;
-	grid-area:auto auto auto;
+	grid-template-columns:auto auto;
+	column-gap:0.6rem;
+	grid-row-gap:0.6rem;
+}
+.item1{
 	background:white;
+	margin-right:27.125rem;
+	display:grid;
+	justify-content:center;
+	align-items:center;
+}
+.item3{
+	background:white;
+}
+.item2{
+	background:white;
+	grid-area:2/2/3/3;
+	margin-left:-27.125rem;
+}
+.item4{
+	background:white;
+}
+
+.topic{
+	background:white;
+	grid-area:1/1/2/3;
+	display:grid;
+	justify-content:center;
+	align-items:center;
+	padding:1rem;
+	font-size:2rem;
+}
+.item1 h1{
+	text-align:center;
+}
+.item2 h1{
+	text-align:center;
+}
+.item3 h1{
+	text-align:center;
+}
+.item4 h1{
+	text-align:center;
 }
