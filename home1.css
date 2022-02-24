@@ -44,18 +44,18 @@ label{
 	cursor:pointer;
 	background:skyblue;
 }
-section{
+.home-content{
 	height:64%;
 	display:flex;
 	text-align:center;
 	justify-content:center;
 	flex-direction:column;
 }
-section h1{
+.home-content h1{
 	font-size:5rem;
 	color:#00bcd4;
 }
-section p{
+.home-content p{
 	font-size:2rem;
 	color:#00bcd4;
 }
@@ -73,7 +73,7 @@ footer a{
 	margin-top:-2rem;
 }
 /*responsive section*/
-@media screen and (max-width:800px){
+@media screen and (max-width:500px){
 	label{
 		display:block}
 		.menu {
@@ -92,13 +92,20 @@ footer a{
 		.menu ul li{
 			background-color:#110a1c33;
 		}
-}
+	}
+	@media screen and (max-width:500px){
+		label{
+
+		}
+	}
 /*portfolio page*/
-.portfolio{
+.portfolio-content{
 	display:grid;
 	grid-template-columns:auto auto;
 	column-gap:0.6rem;
 	grid-row-gap:0.6rem;
+	text-align:center;
+	justify-content:center;
 }
 .item1{
 	background:white;
@@ -144,3 +151,4 @@ footer a{
 .item4 h1{
 	text-align:center;
 }
+
