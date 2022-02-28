@@ -19,7 +19,7 @@ label{
 	float:right;
 	flex-direction:row-reverse;
 	display:none;
-	border-radius:15px;
+	border-radius:0.99rem;
 }
 .menu{
 	clear:both;
@@ -156,6 +156,14 @@ footer a{
 	text-align:center;
 }
 /*contact page*/
+form{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	background:white;
+	margin:0rem 25rem 0rem 25rem;
+	border-radius:1rem;
+}
 /*blog page*/
 .blog-content{
 	
