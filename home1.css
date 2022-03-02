@@ -33,7 +33,6 @@ label{
 }
 .menu ul li{
 	font-size:1rem;
-	/*background-color:white;*/
 	padding:0.9rem;
     list-style:none;}
 .menu ul li a{
@@ -56,75 +55,75 @@ label{
 	color:#00bcd4;
 }
 .home-content p{
-	font-size:2rem;
+	font-size:1.5rem;
 	color:#00bcd4;
 }
 footer{
+	margin-top:1rem;
 	background:white;
 }
 .foot-content{
 	display:flex;
 	justify-content:space-evenly;
-	font-size:2rem;
+	font-size:1rem;
 }
 footer a{
 	display:flex;
 	justify-content: center;
-	margin-top:-2rem;
+	margin-top:-1rem;
 }
 
 
 /*portfolio page*/
 .portfolio-content{
+	margin:0rem 8rem;
 	display:grid;
-	grid-template-columns:auto auto;
-	column-gap:0.6rem;
 	grid-row-gap:0.6rem;
+}
+.topic{
+	background: white;
+	padding:1rem;
 	text-align:center;
-	justify-content:center;
 }
 .item1{
+	margin:;
 	background:white;
-	margin-right:27.125rem;
-	display:grid;
-	justify-content:center;
-	align-items:center;
 	box-shadow: 4px 4px 0px 0px rgba(0 0 0 / 10%);
+}
+.image{
+	float:left;
+    padding:5rem;
+    margin:1rem;
+    background:skyblue;
+}
+.theoretical-content{
+	float:left;
 }
 .item2{
-	background:white;
-	grid-area:2/2/3/3;
-	margin-left:-27.125rem;
-	box-shadow: 4px 4px 0px 0px rgba(0 0 0 / 10%);}
-.item3{
-	background:white;
-	box-shadow: 4px 4px 0px 0px rgba(0 0 0 / 10%);
-}
-.item4{
-	background:white;
-	box-shadow: 4px 4px 0px 0px rgba(0 0 0 / 10%);
-}
-
-.topic{
-	background:white;
-	grid-area:1/1/2/3;
-	display:grid;
-	justify-content:center;
-	align-items:center;
-	padding:1rem;
-	font-size:2rem;
-}
-.item1 h1{
-	text-align:center;
+	margin:0rem 1rem;
+	float:l;
 }
 .item2 h1{
-	text-align:center;
+	text-align:left;
 }
-.item3 h1{
-	text-align:center;
+.item2 h2{
+	text-align:left;
+	font-size:3rem;
 }
-.item4 h1{
-	text-align:center;
+.item3{
+	float:left;
+}
+.item3 h3{
+	font-size:2rem;
+}
+.item2 p{
+	text-align:left;
+}
+.item4{
+	margin:3rem 0rem 0rem 32rem;
+}
+.item4 h4{
+	font-size:2rem;
 }
 /*contact page*/
 form{
@@ -196,7 +195,7 @@ form{
 		}
 		footer{
 			margin-right:-22.5rem;
-			margin-top:23rem;
+			margin-top:17rem;
 		}
 		#toggler:checked~.menu{
 			visibility:visible;
