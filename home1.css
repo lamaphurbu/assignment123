@@ -49,6 +49,7 @@ label{
 	justify-content:center;
 	flex-direction:column;
 	line-height:0rem;
+	margin-top:6rem;
 }
 .home-content h1{
 	font-size:5rem;
@@ -59,7 +60,7 @@ label{
 	color:#00bcd4;
 }
 footer{
-	margin-top:1rem;
+	margin-top:9rem;
 	background:white;
 }
 .foot-content{
@@ -114,6 +115,11 @@ footer a{
 }
 .item3 h3{
 	font-size:2rem;
+	margin:0rem 1rem;
+}
+.item3 p{
+	margin:0rem 1rem;
+	line-height:3rem;
 }
 .item2 p{
 	text-align:left;
@@ -124,13 +130,13 @@ footer a{
 .item4 h4{
 	font-size:2rem;
 }
+
 /*contact page*/
 form{
 	display:flex;
 	flex-direction:column;
 	align-items:center;
 	background:white;
-	margin:0rem 25rem 0rem 25rem;
 	border-radius:1rem;
 }
 .message{
@@ -273,7 +279,7 @@ form{
 		}
 		/*contact*/
 		form{
-			width:100%;
+			padding:0rem 18.8rem;
 		}
 		
 	}
