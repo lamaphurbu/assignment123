@@ -73,8 +73,6 @@ footer a{
 	justify-content: center;
 	margin-top:-1rem;
 }
-
-
 /*portfolio page*/
 .portfolio-content{
 	margin:0rem 8rem;
@@ -87,7 +85,6 @@ footer a{
 	text-align:center;
 }
 .item1{
-	margin:;
 	background:white;
 	box-shadow: 4px 4px 0px 0px rgba(0 0 0 / 10%);
 }
@@ -161,7 +158,6 @@ form{
       background:white;
       height:50rem;
 }
-}
 .blog-content img{
 	height:35%;
 	width:90%;
@@ -218,8 +214,13 @@ form{
 	font-size:2rem;
 	margin:0rem 1rem;
 }
-.report-content img{
+.report-item1 img{
 	height:20%;
+	width:90%;
+	margin:0rem 1rem;
+}
+.report-item2 img{
+	height:13%;
 	width:90%;
 	margin:0rem 1rem;
 }
@@ -228,11 +229,6 @@ form{
 }
 .references{
 	margin-top:3rem;
-}
-.report-item3 img{
-    height:10%;
-    width:90%;
-    margin:0rem 1rem;
 }
 /*responsive*/
 @media screen and (max-width:500px){
